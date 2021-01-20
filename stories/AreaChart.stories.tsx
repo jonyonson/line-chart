@@ -6,7 +6,7 @@ import { AreaProps } from '../src/components/AreaChart';
 import { AreaChart } from '../src';
 
 const meta: Meta = {
-  title: 'Area Chart',
+  title: 'Area Chart with Tooltips',
   component: AreaChart,
   argTypes: {
     children: {
@@ -28,7 +28,7 @@ const Template: Story<AreaProps> = args => <AreaChart {...args} />;
 // https://storybook.js.org/docs/react/workflows/unit-testing
 export const Default = Template.bind({});
 
-const stock = appleStock.slice(1275);
+const stock = appleStock.slice(800);
 
 Default.args = {
   width: 800,

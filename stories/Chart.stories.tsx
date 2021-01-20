@@ -2,11 +2,10 @@ import React from 'react';
 import { Meta, Story } from '@storybook/react';
 import appleStock, { AppleStock } from '@visx/mock-data/lib/mocks/appleStock';
 import { AreaProps } from '../src/components/Chart';
-// import AreaChart from '../src/components/AreaChart';
 import { Chart } from '../src';
 
 const meta: Meta = {
-  title: 'Chart',
+  title: 'Area Chart',
   component: Chart,
   argTypes: {
     children: {

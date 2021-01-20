@@ -1,4 +1,8 @@
-import AreaChart from './components/AreaChart';
-import Chart from './components/Chart';
+import { Thing } from './components/Thing';
 
-export { AreaChart, Chart };
+export { default as AreaChart } from './components/AreaChart';
+export { default as Chart } from './components/Chart';
+// export { default as Thing } from './components/Thing';
+// export Thing from './components/Thing'
+
+export { Thing };
